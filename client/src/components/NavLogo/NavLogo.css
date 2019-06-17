@@ -1,0 +1,105 @@
+#NavLogo-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+#image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#image a img{
+    width: 200px;
+    height: 100px;
+    opacity: 1.0;
+    cursor: pointer;
+    
+}
+
+
+
+#icons-middle{
+    display: none;
+    list-style: none;
+    
+}
+
+#icons-middle a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 3px 10px;
+    text-decoration: none;
+    opacity: 0.65;
+    
+}
+
+#icons-middle a:hover{
+    opacity: 1.0;
+    
+}
+
+#icons-middle a i{
+    font-size: 14px;
+    color: black;
+}
+
+
+
+
+@media(max-width: 1830px){
+
+    #image a img{
+        width: 160px;
+        height: 80px;
+        
+    }
+    
+
+
+    #icons-middle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       
+    }
+
+    #icons-middle a{
+        margin: 0 10px;
+    }
+}
+
+
+@media(max-width: 1200px){
+    #image a img{
+        width: 140px;
+        height: 70px;
+        
+    
+        
+    }
+
+
+    #icons-middle a{
+        margin: 0 8px;
+    }
+}
+
+
+
+@media(max-width: 1000px){
+    #image a img{
+        width: 120px;
+        height: 60px;
+        
+    
+        
+    }
+
+}
+
+
+

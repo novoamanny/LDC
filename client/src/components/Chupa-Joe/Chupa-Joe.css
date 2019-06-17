@@ -1,0 +1,541 @@
+#Joe-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 100px 0;
+    width: 100%;
+
+}
+
+#Joe-image{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+    
+}
+
+#Joe-image img{
+
+   
+    width: 1000px;
+    height: 1000px;
+    border-radius: 25px;
+    
+}
+
+#Joe-bio{
+    
+   text-align: left;
+   line-height: 55px;
+   padding-right: 100px;
+   
+}
+
+
+#Joe-bio h1{
+    font-size: 37px;
+}
+
+#Joe-bio p{
+    font-size: 22px;
+    color: #2f2f2f;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0px;
+}
+
+#Joe-bio p:nth-child(3), #Joe-bio p:nth-child(4){
+    text-indent: 40px;
+}
+
+
+
+@media(max-width: 2600px){
+   
+
+
+
+    #Joe-image img{
+
+   
+        width: 800px;
+        height: 800px;
+        
+    }
+
+    #Joe-bio{
+        
+        line-height: 48px;
+    }
+
+
+    #Joe-bio h1{
+        font-size: 35px;
+    }
+    
+    #Joe-bio p{
+        font-size: 20px;
+        
+        
+        margin: 10px 0;
+    }
+}
+
+
+@media(max-width: 2440px){
+   
+
+   
+
+    #Joe-image img{
+
+   
+        width: 700px;
+        height: 700px;
+        
+        
+    }
+
+    #Joe-bio{
+        
+        line-height: 40px;
+        
+     }
+
+
+    #Joe-bio h1{
+        font-size: 32px;
+    }
+    
+    #Joe-bio p{
+        font-size: 17px;
+        
+        
+        
+    }
+}
+
+
+@media(max-width: 2210px){
+    #Joe-container{
+        margin: 60px 0x;
+    }
+
+   
+    #Joe-image img{
+
+   
+        width: 600px;
+        height: 600px;
+        
+        
+    }
+
+    #Joe-bio{
+        
+        line-height: 39px;
+        
+     }
+
+
+    #Joe-bio h1{
+        font-size: 30px;
+    }
+    
+    #Joe-bio p{
+        font-size: 15px;
+        
+        
+        margin: 5px 0;
+    }
+}
+
+
+
+@media(max-width: 1880px){
+
+    #Joe-image img{
+
+   
+        width: 500px;
+        height: 500px;
+
+        
+        
+        
+    }
+
+    #Joe-bio{
+        
+        line-height: 32px;
+        
+        
+     }
+
+
+    #Joe-bio h1{
+        font-size: 27px;
+    }
+    
+    #Joe-bio p{
+        font-size: 13px;
+        
+        
+        
+    }
+}
+
+
+@media(max-width: 1400px){
+
+    #Joe-image img{
+
+   
+        width: 400px;
+        height: 400px;
+
+        
+        
+        
+    }
+
+    #Joe-bio{
+        
+        line-height: 28px;
+        
+        
+     }
+
+
+    #Joe-bio h1{
+        font-size: 24px;
+    }
+    
+    
+}
+
+
+
+@media(max-width: 1150px){
+    #Joe-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+
+    #Joe-image img{
+
+   
+        width: 600px;
+        height: 600px;
+
+        
+        
+        
+    }
+
+
+
+    #Joe-bio{
+        text-align: none;
+        padding: 50px;
+        line-height: 42px;
+        
+    }
+
+    #Joe-bio h1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 30px;
+        padding-bottom: 20px;
+    }
+
+    
+
+
+    #Joe-bio p{
+        font-size: 16px;
+        
+        
+        margin: 15px;
+    }
+
+
+    #Joe-bio p:nth-child(2){
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+}
+
+
+
+@media(max-width: 900px){
+    
+
+
+
+    #Joe-image img{
+
+   
+        width: 500px;
+        height: 500px;
+
+        
+        
+        
+    }
+
+
+
+    #Joe-bio{
+        
+        line-height: 38px;
+        
+    }
+
+    #Joe-bio h1{
+       
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    
+
+
+    #Joe-bio p{
+        font-size: 14px;
+        
+        
+        margin: 10px;
+    }
+
+}
+
+
+@media(max-width: 750px){
+    
+
+
+
+    #Joe-image img{
+
+   
+        width: 450px;
+        height: 450px;
+
+        
+        
+        
+    }
+
+
+
+    #Joe-bio{
+        
+        line-height: 35px;
+        
+    }
+
+    #Joe-bio h1{
+       
+        font-size: 23px;
+      
+    }
+
+    
+
+
+    #Joe-bio p{
+        font-size: 13px;
+        
+        
+        margin: 10px;
+    }
+
+}
+
+
+
+@media(max-width: 650px){
+    
+
+
+
+    #Joe-image img{
+
+   
+        width: 400px;
+        height: 400px;
+
+        
+        
+        
+    }
+
+
+
+    #Joe-bio{
+        
+        line-height: 32px;
+        
+    }
+
+    #Joe-bio h1{
+       
+        font-size: 23px;
+      
+    }
+
+    
+
+
+    #Joe-bio p{
+        font-size: 12px;
+        
+        
+        margin: 10px;
+    }
+
+}
+
+
+@media(max-width: 550px){
+    
+
+
+
+    #Joe-image img{
+
+   
+        width: 400px;
+        height: 400px;
+
+        
+        
+        
+    }
+
+
+
+    #Joe-bio{
+        
+        line-height: 28px;
+        
+    }
+
+    #Joe-bio h1{
+       
+        font-size: 20px;
+      
+    }
+
+    
+
+
+    #Joe-bio p{
+        font-size: 11px;
+        
+        
+        margin: 10px;
+    }
+
+}
+
+
+
+/* Iphone 5SE, 6, 7, 8, x, pixel 2, galaxy 5, plus */
+/* Portrait */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+    #Joe-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    #Joe-image img{
+
+   
+        width: 280px;
+        height: 280px;
+        
+    }
+
+    #Joe-bio{
+        line-height: 20px;
+    }
+
+
+    #Joe-bio h1{
+       
+        font-size: 18px;
+      
+    }
+
+
+    #Joe-bio p{
+        font-size: 9px;
+        
+        
+        margin: 0px;
+    }
+
+    
+    
+}
+
+
+
+
+
+/* Iphone 5SE, 6, 7, 8, x, pixel 2, galaxy 5, plus */
+/* landscape */
+@media only screen
+and (min-width: 411px) 
+and (max-width: 823px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+    #Joe-container{
+        margin: 0;
+        padding: 0;
+    }
+
+    #Joe-image img{
+
+   
+        width: 260px;
+        height: 260px;
+        
+    }
+
+    #Joe-bio{
+        line-height: 20px;
+    }
+
+
+    #Joe-bio h1{
+       
+        font-size: 22px;
+      
+    }
+
+
+    #Joe-bio p{
+        font-size: 10px;
+        
+        
+        margin: 0px;
+    }
+
+    
+    
+}

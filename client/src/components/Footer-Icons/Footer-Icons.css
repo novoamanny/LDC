@@ -1,0 +1,109 @@
+#footer-icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#footer-icons-container a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    margin: 40px 40px;
+    transition: 0.3s ease;
+}
+
+#footer-icons-container a:hover{
+    opacity: 0.65;
+}
+
+
+#footer-icons-container a i{
+    
+    font-size: 30px;
+    
+    
+}
+
+
+
+
+@media(max-width: 1400px){
+
+
+
+    #footer-icons-container a{
+        
+        margin: 45px 30px;
+    }
+
+
+
+    #footer-icons-container a i{
+        
+        font-size: 17px;
+    }
+}
+
+
+
+
+@media(max-width: 1000px){
+
+
+
+    #footer-icons-container a{
+        
+        margin: 45px 20px;
+    }
+
+
+
+    #footer-icons-container a i{
+        
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media(max-width: 690px){
+
+
+
+    #footer-icons-container a{
+        
+        margin: 45px 15px;
+    }
+
+
+
+    #footer-icons-container a i{
+        
+        font-size: 11px;
+    }
+}
+
+
+
+
+/* Iphone 5SE */
+/* Portrait */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+    #footer-icons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #footer-icons-container a{
+        margin: 20px;
+    }
+    
+}

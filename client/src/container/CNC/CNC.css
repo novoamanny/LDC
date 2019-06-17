@@ -1,0 +1,366 @@
+#CNC-container{
+    margin: 200px;
+    display: grid;
+    
+}
+
+#CNC-logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+#CNC-logo img{
+    width: 1200px;
+    height: 600px;  
+}
+
+
+#CNC-desc{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 550px;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+
+@media(max-width: 2500px){
+    #CNC-logo img{
+        width: 900px;
+        height: 550px;  
+    }
+    
+    
+    #CNC-desc{
+       
+        padding: 90px 350px;
+        
+    }
+}
+
+
+
+@media(max-width: 2200px){
+    #CNC-logo img{
+        width: 800px;
+        height: 500px;  
+    }
+    
+    
+    #CNC-desc{
+       
+        padding: 90px 250px;
+       
+    }
+}
+
+
+
+
+
+
+@media(max-width: 1800px){
+    #CNC-logo img{
+        width: 700px;
+        height: 450px;  
+    }
+    
+    
+    #CNC-desc{
+       
+        padding: 70px 150px;
+        font-size: 20px;
+        
+    }
+}
+
+
+@media(max-width: 1500px){
+    #CNC-logo img{
+        width: 500px;
+        height: 350px;  
+    }
+    
+    
+    #CNC-desc{
+       
+        padding: 70px 100px;
+        font-size: 18px;
+        
+    }
+}
+
+
+
+@media(max-width: 1200px){
+    #CNC-logo img{
+        width: 350px;
+        height: 250px;  
+    }
+    
+    
+    #CNC-desc{
+       
+        padding: 70px 30px;
+        font-size: 15px;
+        line-height: 40px;
+    }
+}
+
+
+
+@media(max-width: 900px){
+
+    #CNC-container{
+        margin: 300px 100px;
+        
+        
+    }
+
+    
+    
+    
+    #CNC-desc{
+       
+        padding: 70px 0px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+}
+
+
+
+@media(max-width: 700px){
+
+    #CNC-container{
+        margin: 300px 100px;
+        
+        
+    }
+
+
+    #CNC-logo img{
+        width: 250px;
+        height: 150px;  
+    }
+    
+    
+    
+    #CNC-desc{
+       
+        padding: 70px 0px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+}
+
+
+
+/* FIX Landscape mode for all devices */
+
+
+/* Iphone 5SE */
+/* Portrait */
+@media only screen
+and (min-width: 320px) 
+and (max-width: 568px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+    #CNC-container{
+        margin: 200px 30px;
+        margin-bottom: 100px;
+        
+        
+    }
+
+
+    #CNC-desc{
+       
+        padding: 70px 0px;
+        font-size: 10px;
+        line-height: 30px;
+    }
+
+
+    
+
+    
+    
+}
+
+
+
+
+
+
+
+
+/* Iphone 5SE, 6, 7, 8, x, pixel 2, galaxy 5, plus */
+/* landscape */
+@media only screen
+and (min-width: 411px) 
+and (max-width: 823px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+    #CNC-container{
+        margin: 150px 30px;
+        margin-bottom: 100px;
+        
+        
+    }
+
+
+    #CNC-logo img{
+        width: 420px;
+        height: 140px;  
+    }
+
+
+    #CNC-desc{
+       
+        padding: 70px 0px;
+        font-size: 12px;
+        line-height: 30px;
+    }
+    
+    
+}
+
+
+
+
+/* Ipad */
+/* Portrait */
+@media only screen
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+    #CNC-container{
+        margin: 250px 30px;
+        
+        
+        
+    }
+
+
+    #CNC-logo img{
+        width: 300px;
+        height: 175px;  
+    }
+
+
+    #CNC-desc{
+       
+        padding: 70px 20px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    
+}
+
+
+
+/* Ipad */
+/* Landscape */
+@media only screen
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+    #CNC-container{
+        margin: 150px 30px;
+        
+        
+        
+    }
+
+
+    #CNC-logo img{
+        width: 270px;
+        height: 175px;  
+    }
+
+
+    #CNC-desc{
+       
+        padding: 70px 20px;
+        font-size: 14px;
+        line-height: 30px;
+    }
+}
+
+
+
+
+/* Ipad pro*/
+/* Portrait */
+@media only screen
+and (min-width: 1024px) 
+and (max-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) { 
+
+    #CNC-container{
+        margin: 380px 30px;
+        
+        
+        
+    }
+
+
+    #CNC-logo img{
+        width: 350px;
+        height: 220px;  
+    }
+
+
+    #CNC-desc{
+       
+        padding: 70px 40px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    
+}
+
+
+
+/* Ipad pro*/
+/* Landscape */
+@media only screen
+and (min-width: 1024px) 
+and (max-width: 1366px) 
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) { 
+
+    #CNC-container{
+        margin: 250px 60px;
+        
+        
+        
+    }
+
+
+    #CNC-logo img{
+        width: 350px;
+        height: 200px;  
+    }
+
+
+    #CNC-desc{
+       
+        padding: 70px 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    
+     
+}
